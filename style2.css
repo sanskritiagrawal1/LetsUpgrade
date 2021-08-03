@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: rgb(168, 168, 168);
+}
+
+
+.hero{
+    /* opacity: 0.5; */
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://img.freepik.com/free-vector/seamless-gold-rhombus-grid-pattern-black-background_53876-97589.jpg?size=626&ext=jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.logo{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+span{
+    color: rgb(206, 13, 71);
+}
+
+.hero .nav h2:hover{
+    text-shadow: 10px 5px 5px rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 24px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.nav ul li{
+    display: inline-block;
+    padding: 10px 30px;
+}
+
+.nav ul li a{
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.nav ul li a:hover{
+    color:  rgb(206, 13, 71);
+}
+
+.btn{
+    background-color:  rgb(206, 13, 71);
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 24px;
+    transition: transform 0.5s;
+}
+
+.btn:hover{
+    transform: scale(1.2);
+}
+
+.contant{
+    position: absolute;
+    top: 40%;
+    left: 25%;
+}
+
+h1{
+    color: white;
+    margin: 20px 0px 10px 0px;
+    font-size: 64px;
+}
+
+h3{
+    color: white;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+h4{
+    color: rgb(197, 197, 197);
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.formstyle form{
+    width: 400px;
+    max-width: 100%;
+    position: relative;
+}
+
+.formstyle form input:first-child {
+    width: 100%;
+    display: inline-block;
+    padding: 14px 128px 14px 15px;
+    border: 2px solid  rgb(206, 13, 71);
+    border-radius: 24px;
+}
+.formstyle form input:last-child{
+    position: absolute;
+    display: inline-block;
+    border: none;
+    padding: 10px 24px;
+    background-color:  rgb(206, 13, 71);
+    color: white;
+    top: 6px;
+    right: 8px;
+    border-radius: 12px;
+}
+
+.contant .icons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contant .icons .footIcon{
+    display: inline-block;
+    position: relative;
+    top: 16px;
+}
+.contant .iconss .footIcon .icon{
+    display: inline-block;
+}
+
+.contant .iconss .footIcon a:hover{
+    text-shadow: 12px 12px 12px white;
+}
+
